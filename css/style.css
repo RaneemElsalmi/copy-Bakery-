@@ -1,0 +1,116 @@
+*{
+    font-family: 'Alegreya', serif;
+}
+/* header start */
+header {
+    /* width: 100%;
+    height: 1000px; */
+   background-image: url(../img/drew-coffman-1872.jpg);
+   height: 900px;
+   position: relative;
+}
+.first  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 22px;
+    font-weight: 800;
+    color: #fff;
+}
+.first button{
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 40px;
+    background-color:  #8e7754;;
+}
+/* header end */
+/* ourlocation  ,who start*/
+
+.ourlocation
+,.who{
+    display: inline-flex;
+    padding-left: 100.6px;
+    padding-right: 100.4px;
+    background-color: #f8f8f8;
+    padding-top: 90px !important;
+    padding-bottom: 90px !important;
+}
+.who{
+
+    background-color: #fff;
+}
+.who h2 ,
+.ourlocation h2{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.who p,
+.ourlocation p{
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+}
+.who img {
+    width:40% ; 
+}
+.ourlocation img{
+    width:50% ;
+    margin-left: 10%;
+}
+.we{
+    margin-left: 8%;
+}
+.we ul li{
+    list-style: none;
+    display: list-item;
+    
+}
+.we ul li p{
+    display: inline-block;
+}
+.we ul li i{
+    color: #8e7754;
+    margin-right: 10px;
+}
+
+/* ourlocation end*/
+/* footer Sart */
+footer{
+  
+    margin-top:9%;
+    margin-bottom:9%;
+}
+footer h3 {
+    font-weight: 400;
+    margin-bottom: 3%;
+    text-align: center;
+    font-size: 28px;
+}
+
+footer p{
+    color:  #888;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.set-item1{
+    margin-left:6%;
+    margin-right:6%; 
+   
+}
+.item1{
+ width: 30.80%;
+ display: inline-block;
+ padding-left: 2%;
+ text-align: center;
+ 
+}
+.item1 img{
+    width: 100%;
+}
+
+/* footer End */
